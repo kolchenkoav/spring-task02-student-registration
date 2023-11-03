@@ -1,0 +1,12 @@
+
+Консольное приложение «Учёт студентов»
+,--.   ,--.              ,--.      ,---.                         ,--.
+|  |   |  | ,---. ,--.--.|  |,-.  '   .-' ,---. ,--.--.,--.  ,--.`--' ,---. ,---.
+|  |.'.|  || .-. ||  .--'|     /  `.  `-.| .-. :|  .--' \  `'  / ,--.| .--'| .-. :
+|   ,'.   |' '-' '|  |   |  \  \  .-'    \   --.|  |     \    /  |  |\ `--.\   --.
+'--'   '--' `---' `--'   `--'`--' `-----' `----'`--'      `--'   `--' `---' `----'
+  :: Powered by Spring Boot ::                                             (${spring-boot.version})
+
+${application.title} (${application.version})
+Create students at application startup from (${application.init.type}): (${application.init.enabled})
+    For a list of commands, type: help

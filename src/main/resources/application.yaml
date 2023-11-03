@@ -1,0 +1,12 @@
+application:
+  title: Work service
+  version: 1.00
+  filename-csv: MOCK_DATA.csv     # Имя файла для загрузки
+  number-of-records: 25           # Число записей при генерации
+  delimiter: ','                  # Символ-разделитель
+  min-age: 17                     # Минимальный возраст студента
+  max-age: 50                     # Максимальный возраст студента
+  init:
+    enabled: true                 # Нужно ли загружать данные?
+    type: gen                     # csv - Загрузка из файла   gen - Генерация данных
+    listener: true                # Нужно ли показывать информацию при загрузке?
